@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>InfoWeb - Informação e inclusão</title>
+</head>
+<body>
+    <header>
+        <div id="recursos">
+            <ul>
+                <li><a href="#" accesskey="1">1️⃣Ir para conteúdo </a>
+                <li><a href="#" accesskey="2">2️⃣Ir para menu de navegação</a>
+                <li><a href="ajuda-acessibilidade.html" accesskey="3">3️⃣Ajuda de Acessibilidade </a>
+            </ul>
+            <div id="size-menu">
+                <button onclick="aumentar()">A<sup>+</sup></button>
+                <button onclick="diminuir()">A<sup>-</sup></button>
+            </div>
+            
+
+
+        </div>
+        <hr>
+        <nav>
+            <a href="index.html"><img src="img/InfoWeb-logo.png" alt="Logotipo InfoWeb - Informação e inclusão"></a>
+            
+            <ul>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Conheça WordPress</h1>
+        <p>
+          Este é um texto
+        </p>
+        <p>
+          Este é outro texto
+        </p>
+        
+    </main>
+    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    
+    <script src="main.js"></script>
+
+    <style>
+        [vw] [vw-access-button] .access-button {
+            width: 40%!important;
+        }
+    </style>
+    
+</body>
+</html>
