@@ -5,7 +5,7 @@ var content3 = document.getElementById("caixa3");
 var content4 = document.getElementById("caixa4");
 
 function mostrar1() {
-	content1.style.display = "block";
+	content1.style.display = "flex";
 	content2.style.display = "none";
 	content3.style.display = "none";
 	content4.style.display = "none";
@@ -13,7 +13,7 @@ function mostrar1() {
 
 function mostrar2() {
 	content1.style.display = "none";
-    content2.style.display = "block";
+    content2.style.display = "flex";
 	content3.style.display = "none";
 	content4.style.display = "none";
 }
@@ -21,7 +21,7 @@ function mostrar2() {
 function mostrar3() {
 	content1.style.display = "none";
     content2.style.display = "none";
-	content3.style.display = "block";
+	content3.style.display = "flex";
 	content4.style.display = "none";
 }
 
@@ -30,7 +30,7 @@ function mostrar4() {
 	content1.style.display = "none";
     content2.style.display = "none";
 	content3.style.display = "none";
-	content4.style.display = "block";
+	content4.style.display = "flex";
 }
 
 //Recurso de alterar tamanho das fontes
