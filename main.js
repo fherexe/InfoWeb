@@ -1,4 +1,4 @@
-//Menu de navegação
+//Menu de navegação fonte :https://codepen.io/PandaBearPy/pen/QgYWrE
 var content1 = document.getElementById("caixa1");
 var content2 = document.getElementById("caixa2");
 var content3 = document.getElementById("caixa3");
