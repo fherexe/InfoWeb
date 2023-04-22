@@ -15,9 +15,9 @@
     <header>
         <div id="recursos">
             <ul>
-                <li>Use: alt + número</li>
-                <li>6️⃣Libras</li>
-                <li><a href="ajuda-acessibilidade.html" accesskey="6">5️⃣Ajuda de Acessibilidade</a></li>
+                <li>Para utilizar os atalhos: alt + número</li>
+                <li>5️⃣Libras</li>
+                <li><a href="ajuda-acessibilidade.html" accesskey="6">6️⃣Ajuda de Acessibilidade</a></li>
             </ul>
             <div id="size-menu">
                 <img src="img/font+.png" alt="Aumentar fonte" onclick="aumentar()" tabindex="0">
@@ -39,7 +39,7 @@
     </header>
 
     <div vw class="enabled"> <!---------botão de libras------->
-        <div accesskey="6" tabindex="0" vw-access-button class="active"></div>
+        <div accesskey="5" tabindex="0" vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
             <div class="vw-plugin-top-wrapper"></div>
         </div>
@@ -68,23 +68,10 @@
         </div>
     </main>
 
-
-
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-
-    <script>
-        new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
-
     <script src="main.js"></script>
-
-    <style>
-        .access-button {
-            width: 37% !important;
-            border-radius: 50% !important;
-        }
-
-    </style>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+    <style>.access-button { width: 37% !important;border-radius: 50% !important;}</style>
 
 </body>
 
