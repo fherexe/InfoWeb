@@ -5,47 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
     <title>InfoWeb - Ajuda na acessibilidade</title>
 </head>
 <body>
-    <main>
+    <header>
+        <div id="recursos">
+            <ul>
+                <li><a href="index.html">Voltar para página principal</a></li>
+                <li>5️⃣Libras</li>
+                <li><a href="ajuda-acessibilidade.html" accesskey="6">6️⃣Ajuda de Acessibilidade</a></li>
+            </ul>
+            <div id="size-menu">
+                <img src="img/font+.png" alt="Aumentar fonte" onclick="aumentar()" tabindex="0">
+                <img src="img/font-.png" alt="Diminuir fonte" onclick="diminuir()" tabindex="0">
+                
+            </div>
+            <img src="img/simbolo-do-circulo-de-contraste (1).png" alt="Alterar para alto contraste" id="contrast-icon" tabindex="0">
+        </div>
+
+        <hr>
+
+        <nav>
+            <a href="index.html"><img src="img/InfoWeb-logo.png" alt="Logotipo InfoWeb - Informação e inclusão"></a>
+        </nav>
+    </header>
+
+    <div class="container-main">
         <h1>Ajuda na acessibilidade</h1>
+        <br>
         <p>O site da InfoWeb foi desenvolvido de forma a atender um amplo público através da implementação de recursos de acessibilidade, seguindo as recomendações do WCAG 2.0 (Web Content Accessibility Guidelines), do W3C (World Wide Web Consortium), principal organização de padronização da Web, que desenvolve especificações técnicas e orientações de uso internacional.</p>
-
+        <br>
         <p>Com isso, pessoas com deficiência visual, auditiva, dificuldades de aprendizagem, limitações cognitivas, mobilidade reduzida, fotossensibilidade, etc. e a combinações destas características podem navegar no site por meio de recursos que foram implementados para garantir este acesso, tais como o alto contraste, possibilidade de aumento de fonte, ferramenta de Libras teclas de atalho e navegação por teclado.</p>
-
+        <br><br>
         <h2>Como usar</h2>
         <p>Para aumentar a fonte, é só clicar no símbolo de A+ em nossa barra de acessibilidade. Caso queira voltar ao tamanho de fonte original, é só clicar em A-. Se for necessário, você também pode usar o zoom nativo do seu navegador, pressionando as teclas “Ctrl +” para aumentar todo o site e “Ctrl -“ para diminuir. Para voltar ao padrão, pressione “Ctrl 0”.</p>
 
+        <br><br>
         <h2>Teclas de atalho por navegadores</h2>
-
+        <br>
         <h3>Internet Explorer e Google Chrome:</h3>
         <p>“Alt + número"</p>
+        <br>
 
         <h3>Firefox:</h3>
         <p>“Alt + Shift + número”
         </p>
+        <br>
 
         <h3>Opera:</h3>
         <p>“Shift + Escape + número”
         </p>
+        <br>
 
         <h3>Safari e OmniWeb:</h3>
         <p>“Ctrl + número”</p>
+        <br><br>
 
         <h2>Navegação por tabulação</h2>
+        <br>
         <p>Use a tecla Tab para navegar por elementos que recebem ação do usuário no site, tais como links, botões, campos de formulário e outros na ordem em que eles são apresentados na página, e Shift + Tab para retornar. Use as setas direcionais para acessar as informações textuais.
         </p>
+        <br><br>
 
         <h2>Sugestões de programas disponíveis para pessoas com deficiência</h2>
+        <br>
         <ul>
-            <li><strong>Nitrous Voice Flux:</strong>controla o computador por voz. Gratuito;</li>
-            <li><strong>NVDA:</strong>software livre para ler tela – vários idiomas (Windows);</li>
+            <li><strong>Nitrous Voice Flux:</strong> controla o computador por voz. Gratuito;</li>
+            <li><strong>NVDA:</strong> software livre para ler tela – vários idiomas (Windows);</li>
             <li><strong>YeoSoft Text:</strong> leitor de tela em inglês e português;</li>
-            <li><strong>Jaws for Windows:</strong>leitor de tela – vários idiomas;</li>
+            <li><strong>Jaws for Windows:</strong> leitor de tela – vários idiomas;</li>
+            <li><strong>DOSVOX:</strong> sistema para deficientes visuais (Windows ou Linux).</li>
         </ul>
-        <li><strong>DOSVOX:</strong>sistema para deficientes visuais (Windows ou Linux).</li>
-    </main>
+    </div>
+
+    <br>
+    <footer>
+        &copy;2023 Instituto da Oportunidade Social
+        <br>
+        Site Desenvolvido por <a href="https://fherexe.github.io/MyLinks/" target="_blank">Fernando</a> e <a href="#">Rafael Barreto.</a>
+    </footer>
+    <br>
 
 
     <script src="main.js"></script>
