@@ -85,6 +85,15 @@ header {
     outline: 2px solid #fff;
 }
 
+#contrast-icon {
+    cursor: pointer;
+    width: 30px;
+}
+
+#contrast-icon:hover {
+    outline: 2px solid #fff;
+}
+
 hr {
     opacity: 0.3;
     margin: 5px 0;
@@ -125,4 +134,56 @@ nav a img:hover {
     outline: 2px solid #fff;
 }
 
+
 /* ----------------fechamento header ---------------------- */
+
+main {
+    padding: 0 10%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.container img {
+    width: 450px;
+}
+
+.container p {
+    margin-top: 14px;
+    max-width: 400px;
+}
+
+#caixa2, #caixa3, #caixa4 {
+    display: none;
+}
+
+footer {
+    text-align: center;
+}
+
+
+/* --------------Modo Alto Contraste --------- */
+.contrast-mode {
+    background: #000;
+    color: var(--text);
+}
+
+.contrast-mode li {
+    color: var(--text);
+}
+
+.contrast-mode li a {
+    color: var(--text);
+}
+
+.contrast-mode button {
+    color: var(--text);
+}

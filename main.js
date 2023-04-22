@@ -46,6 +46,14 @@ function aumentar(){
   document.body.style.fontSize=tamanho+"px";
 }
 
+//Modo Alto Contraste
+const contrastBtn = document.getElementById('contrast-icon');
+const body = document.body
+
+contrastBtn.addEventListener('click', function () {
+    body.classList.toggle('contrast-mode')
+})
+
 
 
 
