@@ -1,0 +1,9 @@
+main {
+    background: rgb(236, 236, 236);
+    margin: 0 10%;
+    padding: 40px;
+}
+
+#caixa2, #caixa3, #caixa4 {
+    display: none;
+}

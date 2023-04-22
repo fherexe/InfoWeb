@@ -14,6 +14,7 @@
     --text:#ffff00;
 }
 
+
 * {
     padding: 0;
     box-sizing: border-box;
@@ -23,30 +24,34 @@
 }
 
 body {
-    padding-top:30vh;
+    padding-top:25vh;
 }
 
 header {
     background: var(--color1);
     position: fixed;
     top: 0;
+    height: 25vh;
     width: 100%;
 }
 
 #recursos, header nav {
-    padding: 14px 5%;
+    padding: 14px 10%;
 }
 
 #recursos {
     display: flex;
     align-items: center;
+    justify-content:space-between;
 }
 
 #recursos ul {
     display: flex;
     align-items: center;
+    font-size: 14px;
     gap: 2%;
     min-width:800px;
+    color: #fff;
 }
 
 #recursos ul a {
@@ -65,16 +70,17 @@ header {
     gap: 10px;
 }
 
-#size-menu button {
-    color: #fff;
-    font-size: 28px;
+#size-menu img {
+    height: 24px;
     cursor: pointer;
-    border: none;
-    background: none;
+}
+
+#size-menu img:nth-child(2) {
+    height: 18px;
 }
 
 
-#size-menu button:hover {
+#size-menu img:hover {
     color: #fff;
     outline: 2px solid #fff;
 }
@@ -84,6 +90,33 @@ hr {
     margin: 5px 0;
 }
 
+/* ------------------------------------------- divisão header ----- */
+
+nav {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul button {
+    border: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav ul button:hover {
+    outline: 2px solid #fff;
+}
+
 nav a img {
     width: 190px;
 }
@@ -91,3 +124,5 @@ nav a img {
 nav a img:hover {
     outline: 2px solid #fff;
 }
+
+/* ----------------fechamento header ---------------------- */
