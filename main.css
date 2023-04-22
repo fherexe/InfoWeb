@@ -5,6 +5,6 @@ main {
     height: 65vh;
 }
 
-#caixa1, #caixa2, #caixa3, #caixa4 {
+#caixa2, #caixa3, #caixa4 {
     display: none;
 }
