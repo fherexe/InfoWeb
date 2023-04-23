@@ -10,7 +10,7 @@
     --color5:#0078D7;
 
         /* paleta de alto contraste*/
-    --hyperlinks:#5957e6;
+    --hyperlinks:#6968cf;
     --text:#ffff00;
 }
 
@@ -43,15 +43,16 @@ header {
     display: flex;
     align-items: center;
     justify-content:space-between;
+    font-size: 14px;
+    color: #fff;
+
 }
 
 #recursos ul {
     display: flex;
     align-items: center;
-    font-size: 14px;
     gap: 2%;
-    min-width:800px;
-    color: #fff;
+    min-width:600px;
 }
 
 #recursos ul a {
@@ -67,7 +68,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 #size-menu img {
@@ -81,8 +82,14 @@ header {
 
 
 #size-menu img:hover {
-    color: #fff;
     outline: 2px solid #fff;
+}
+
+.container-contrast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 #contrast-icon {
@@ -139,7 +146,7 @@ nav a img:hover {
 
 main {
     padding: 0 10%;
-    height: 65vh;
+    min-height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,13 +170,65 @@ main {
 
 .container p {
     text-align: justify;
-    margin-top: 14px;
+    margin-top: 10px;
     max-width: 450px;
+}
+
+.item4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#caixa4 p, #caixa4 h2{
+    text-align: center;
+}
+
+.item4 p {
+    max-width: 600px;
+    margin-top: 4px;
+}
+
+.zoom-efect {
+    width: 300px;
+    overflow: hidden;
+}
+
+.sites-wordpress img {
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 4px;
+    height: 190px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.sites-wordpress img:hover {
+    transform: scale(1.2);
+}
+
+.container-sites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 30px;
+}
+
+.sites-wordpress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    text-align: center;
 }
 
 #caixa2, #caixa3, #caixa4 {
     display: none;
 }
+
+/* ------------------- Segunda página --------- */
 
 .container-main {
     display: flex;
