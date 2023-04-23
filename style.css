@@ -149,22 +149,27 @@ main {
 .container {
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: center;
+   gap: 5%;
 }
 
 .container img {
-    width: 450px;
+    width: 500px;
+}
+
+.container h1, .container h2 {
+    max-width: 450px;
 }
 
 .container p {
+    text-align: justify;
     margin-top: 14px;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 #caixa2, #caixa3, #caixa4 {
     display: none;
 }
-
 
 .container-main {
     display: flex;
@@ -178,9 +183,14 @@ main {
 }
 
 
-
 footer {
     text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color5);
+    font-weight: 500;
 }
 
 
@@ -195,9 +205,16 @@ footer {
 }
 
 .contrast-mode #recursos a {
-    color: var(--text);
+    color: var(--hyperlinks);
 }
 
 .contrast-mode button {
     color: var(--text);
+}
+
+.contrast-mode a {
+}
+
+.contrast-mode footer a {
+    color: var(--hyperlinks);
 }
