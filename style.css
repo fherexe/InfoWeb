@@ -191,15 +191,16 @@ main {
 }
 
 .zoom-efect {
-    width: 300px;
+    max-height: 170px;
+    max-width: 300px;
     overflow: hidden;
+    margin-top: 10px;
 }
 
 .sites-wordpress img {
     width: 300px;
-    margin-top: 10px;
+    height: 180px;
     border-radius: 4px;
-    height: 190px;
     object-fit: cover;
     transition: 0.3s;
 }
