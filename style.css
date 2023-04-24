@@ -71,20 +71,24 @@ header {
     gap: 5px;
 }
 
+#size-menu button {
+    border: none;
+    background: none;
+}
+
 #size-menu img {
     height: 24px;
     cursor: pointer;
 }
 
-#size-menu img:nth-child(2) {
-    height: 18px;
+#size-menu button:nth-child(2) img {
+    height: 20px;
 }
 
 
 #size-menu img:hover {
     outline: 2px solid #fff;
 }
-
 .container-contrast {
     display: flex;
     justify-content: center;
@@ -92,9 +96,14 @@ header {
     gap: 5px;
 }
 
-#contrast-icon {
-    cursor: pointer;
+.container-contrast button {
+    border: none;
+    background: none;
+}
+
+#contrast-icon img {
     width: 30px;
+    cursor: pointer;
 }
 
 #contrast-icon:hover {
@@ -277,9 +286,14 @@ footer a {
     color: var(--text);
 }
 
-.contrast-mode a {
+.contrast-mode .container-contrast {
+    color: #ffff00;
 }
 
 .contrast-mode footer a {
     color: var(--hyperlinks);
+}
+
+.contrast-mode #size-menu {
+    color: #ffff00;
 }
